@@ -17,7 +17,7 @@ html {
 }
 
 p{
-    color: rgb(red, green, blue);
+    color: rgb(85, 85, 85);
 }
 
 /* Transitions */
@@ -52,7 +52,7 @@ a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(red, green, blue);
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
@@ -265,6 +265,8 @@ section {
 
 .about-containers {
     gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -344,4 +346,80 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+/* Projects Section */
+
+#projects {
+    position: relative;
+}
+
+.colors-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: black
+}
+
+/* Contact Section */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+}
+
+/* Footer Section */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.5rem
 }
